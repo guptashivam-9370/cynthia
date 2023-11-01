@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: general sans;
+}
+body{
+    background: black;
+    width: 100%;
+    color: white;
+}
+#mini-circle{
+    transition: ease-out 100ms;
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10000;
+}
+#nav{
+    background: black;
+    position: sticky;
+    top: 0;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.6vw;
+    font-weight: 450;
+    z-index: 1000;
+}
+#hero{
+    position: relative;
+    height: 87vh;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#nav #menu{
+    font-size: 18px;
+}
+#heading{
+    text-transform: uppercase;
+    /* color: white; */
+    font-weight: 500;
+    line-height: 1;
+}
+#heading #heading1 {
+    opacity: .65;
+    font-size: 10.4vw;
+    margin-left:40px;
+    margin-top: 80px;        
+    line-height: 0.8;
+    font-size: 10.4vw;
+}
+#heading2{
+    font-size: 10.4vw;
+    opacity: .65;
+    padding-left: 15vw;
+}
+#b1{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#b1 h5{
+    text-align: right;
+}
+#sideheading{
+    margin-top: 90px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* color: white; */
+}
+#sideheading h5{
+    text-align: right;
+    margin-top: .5vw;
+    font-size: 1.2vw;
+}
+#footer{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    bottom: 0;
+    padding: 0px 2vw;
+    justify-content: space-between;
+}
+#footer a{
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#am{
+    transform: translate(-50%);
+}
+#larr{
+    display: flex;
+    gap: 5px;
+}
+#footer .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: rgb(182, 182, 182);
+}
+#secondhero{
+    padding-top:180px ;
+    margin:80px 10vw 0px 40px;
+    margin-top: 80px;        
+    text-transform: uppercase;
+}
+.secondhead{
+    font-size: 7.4vw;
+    color: rgba(255, 255, 255, 0.656);
+    border-top: solid 1px rgb(203, 203, 203);
+    padding: 3vw 0px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sun{
+    font-size: 1vw;
+    color: white;
+}
+#last-second-hero{
+    border-bottom: solid 1px rgb(203, 203, 203);
+}
+#third-hero{
+    margin-top: 155px;
+}
+.about-discription{
+    font-size: 13px;
+    font-weight: 800;
+    color: rgb(149, 149, 149);
+    text-transform: uppercase;
+}
+.about{
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    padding-right: 180px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    position: relative;
+}
+.mytext{
+    width: 450px;
+}
+img{
+    /* background-size: contain; */
+    height: 250px;
+    padding: 0px 80px;
+}
+#third-hero .you{
+    margin-top: 10vw;
+    margin-left: 3vw;
+    font-weight: 600;
+}
+.right-third a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    border: solid 1px white;
+    border-radius: 40px;
+}
+.link{
+    width: auto;
+    margin-top:20px;
+}
+#you-text{
+    color: rgb(155, 155, 155);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.you a{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+.final-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    bottom: 20px;
+    /* width: 100vw; */
+    padding:0  3vw;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.left{
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+}
+#time{
+    padding-left: 30px;
+    /* padding-right: 40vh; */
+}
+.share{
+    justify-content: space-between;
+    display: flex;
+}
+.social{
+    padding-left: 50px;
+}
+.bounding{
+    /* background-color: red; */
+    width: fit-content;
+    overflow: hidden;
+}
+.boundingelem {
+    transform: translateY(150%);
+}
+.upperboundingelem{
+    transform: translateY(-115%);
+}
